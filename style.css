@@ -1,99 +1,54 @@
-  body {
-      margin: 0;
-        font-family: 'Cairo', sans-serif;
-
-   }
-   .header {
-      background-color:black;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10% 50%;
-      
-   }
-   .header-links a {
-      color: #ffa500;
-      padding: 5% 25%;
-      text-decoration: none;
-      border-radius: 15%;
-   }
-   .header-links a:hover {
-color:wheat;
-   }
-
-   .landing-page {
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-     padding: 25% 50%;
-     color: #ffa500;
-     border-radius: 0 0 50% 50%;
-   }
-
-   .landing-page-left-section{
-      width: 400%;
-   }
-
-   .lnding-page-search input {
-    border-radius: 50%;
-    border: none;
-    outline: none;
-    height: 30%;
-    padding:0 10%;
-   }
-   .lnding-page-search button {
-    position: absolute;
-    
-   }
-   .lnding-page-images-container img {
-    border-radius: 20%;
-
-   }
-
-   .tomas-Store {
-      padding: 25% 50%;
-   
-   }
-.tomas-Store span {
-   color: #ffa500;
-   text-transform: uppercase;
+ body {
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
 }
-   .Tomas-header h1 {
-      margin-top: 0;
-      font-size: 65%;
-   }
-   
-   .tomas-cards {
-      display: flex;
-      gap: 150%;
-   }
 
-   .card {
-      width: 300%;
-        background-color: #EEEEEE;
-        border-radius: 20%;
-   }
-
-   .card .thumb {
-      border-radius: 20% 20% 0 0;
-   }
-
-   .card-info {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    padding: 10% 25%;
-      
-   }
- .card-info img{
-   width: 50%;
-        border-radius: 20%;
- }
-/* يخلي الموقع يتصرف صح على الجوال */
-@media (max-width: 768px) {
-  body {
-    transform: scale(0.9);
-    transform-origin: top;
-  }
+/* HEADER /
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; / بدل % /
 }
+
+.header-links a {
+  color: #ffa500;
+  padding: 8px 12px; / بدل % /
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+/ LANDING /
+.landing-page {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px; / بدل % /
+  color: #ffa500;
+}
+
+.landing-page-left-section {
+  width: 100%; / بدل 400% /
+}
+
+/ STORE /
+.tomas-Store {
+  padding: 40px 20px; / بدل % /
+}
+
+.tomas-cards {
+  display: flex;
+  gap: 20px; / بدل 150% /
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 250px; / بدل 300% */
+  background-color: #eee;
+  border-radius: 20px;
+}
+﻿
+Bnana
+q1sfa7
