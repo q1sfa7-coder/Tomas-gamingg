@@ -50,5 +50,25 @@
   border-radius: 20px;
 }
 ﻿
-Bnana
-q1sfa7
+@media (max-width: 768px) {
+  .header,
+  .landing-page,
+  .tomas-Store {
+    padding: 20px !important;
+  }
+
+  .tomas-cards {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .card {
+    width: 100% !important;
+    max-width: 300px;
+  }
+
+  .landing-page-left-section {
+    width: 100% !important;
+  }
+}
+
