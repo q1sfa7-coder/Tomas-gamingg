@@ -90,3 +90,10 @@ color:wheat;
    width: 50px;
         border-radius: 20px;
  }
+/* يخلي الموقع يتصرف صح على الجوال */
+@media (max-width: 768px) {
+  body {
+    transform: scale(0.9);
+    transform-origin: top;
+  }
+}
